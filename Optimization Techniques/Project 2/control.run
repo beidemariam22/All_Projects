@@ -1,0 +1,20 @@
+reset; 
+
+# load the model
+model control.mod;
+
+#load the data
+data control.dat;
+
+#change the solver
+#option solver minos;
+#option solver loqo;
+#option solver conopt;
+
+# solve LP
+solve;
+
+# display result 
+display x1;
+display x2;
+display u;

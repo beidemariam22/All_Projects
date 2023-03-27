@@ -1,0 +1,23 @@
+param n := 5;   # no of variables 
+param m := 5;   # no of constraint(note that totally we have 6 constraint but one is with equality, and it is putted as a normal equation)
+
+param C :=      #vector of objective function 
+      1  8
+      2  6
+      3  20
+      4  13
+      5  5;  
+      
+param A: 1      2     3    4     5 :=     # matrix of constraint coefficient
+      1  50     100   0    120   70
+      2 -50    -100   0   -120  -70
+      3  6.5   -55    0    18   -9.5 
+      4  30     0     60    0    2
+      5  -2      0     0    1    0;   
+      
+param B:=     # vector of right hand coefficient
+      1   370
+      2  -410
+      3   0
+      4   40  
+      5   0;    

@@ -1,0 +1,9 @@
+# AMPL DATA file for Optimal Control 1
+# Number of steps
+param N := 50;
+# Initial and final time
+param tf := 2;
+param t0 := 0;
+# Initial conditions
+param x1_0 := 0;
+param x2_0 := 0;

@@ -1,0 +1,9 @@
+reset;
+model Project1.mod;
+data Project1.dat;
+option solver cplex;
+solve;
+display x[1],x[2],x[3],x[4],x[5],z;
+display x[1].rc;
+display M1.dual; 
+display M1.slack;

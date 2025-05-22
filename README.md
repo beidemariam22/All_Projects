@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Beidemarya Awoke Bishaw
+# 👋 Hi, I'm Beidemaryam Awoke Bishaw
 
 🎓 MSc in Robotics Engineering (Warsaw University of Technology)  
 🤖 Robotics | Machine Learning | Human-Robot Interaction | ROS  

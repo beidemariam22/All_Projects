@@ -94,4 +94,4 @@ worldPoints = generateCheckerboardPoints(boardSize, squareSize);
 % h2=figure; showExtrinsics(cameraParams, 'CameraCentric');
 
 % Display parameter estimation errors
-% displayErrors(estimationErrors, cameraParams);
+% displayErrors(estimationErrors, cameraParams); 

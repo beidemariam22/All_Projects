@@ -6,4 +6,4 @@ param tf := 2;
 param t0 := 0;
 # Initial conditions
 param x1_0 := 0;
-param x2_0 := 0;
+param x2_0 := 0; 

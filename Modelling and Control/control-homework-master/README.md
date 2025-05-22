@@ -1,3 +1,3 @@
 # Control Homework
 
-Single-link manipulator control model
+Single-link manipulator control model 

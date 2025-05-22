@@ -6,7 +6,7 @@ function d2q = Acceleration(dq,q,t)
 %   q - the vector of absolute coordinates,
 %   t - the current time instant.
 % Out:
-%   d2q - the vector of the second time derivatives of absolute coordinates.
+%   d2q - the vector of the second time derivatives of absolute coordinates. 
 
 Om = [0 -1;
       1  0];  % Auxiliary matrix
